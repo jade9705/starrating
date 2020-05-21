@@ -18,9 +18,7 @@ const starLight =  () => {
        star.className = "rating__star rating__star--on";
    } else {
        star.className = "rating__star";
-
    }
-
    })
-
+   valueNum.innerHTML = clickedStarIndex+1;
 }
